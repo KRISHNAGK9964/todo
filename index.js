@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import fs from "fs";
 import { greetUser } from "./greet.js";
 import { fileURLToPath } from "url";

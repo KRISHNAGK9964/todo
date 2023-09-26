@@ -1,19 +1,28 @@
 {
   "name": "todocli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple easy to use command line todo list manager.",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "type": "module",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Krishna k",
+  "license": "MIT",
   "dependencies": {
     "chalk-animation": "^2.0.3",
     "inquirer": "^9.2.11",
     "inquirer-date-prompt": "^3.0.0",
     "inquirer-datepicker-prompt": "^0.4.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KRISHNAGK9964/todo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KRISHNAGK9964/todo/issues"
+  },
+  "homepage": "https://github.com/KRISHNAGK9964/todo#readme"
 }
