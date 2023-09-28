@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+/**
+ * todo list manager using inquirer.js [open app.js for working version of todo app and read readme.md for usage]
+ */
 import fs from "fs";
 import { greetUser } from "./greet.js";
 import { fileURLToPath } from "url";
